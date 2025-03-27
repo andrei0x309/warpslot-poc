@@ -1,6 +1,6 @@
 {
   "name": "warpslot-poc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "POC and lib for warpslot frame",
   "type": "module",
   "main": "./dist/index.js",
@@ -20,7 +20,12 @@
     "dist"
   ],
   "keywords": [
-    "bun", "node lib", "warpslot", "frames-v2", "warpcast", "farcaster"
+    "bun",
+    "node lib",
+    "warpslot",
+    "frames-v2",
+    "warpcast",
+    "farcaster"
   ],
   "license": "MIT",
   "homepage": "https://github.com/andrei0x309/warpslot-poc#readme",

@@ -1,0 +1,40 @@
+{
+  "name": "warpslot-poc",
+  "version": "0.1.1",
+  "description": "POC and lib for warpslot frame",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "bun run build.ts",
+    "new-version": "bun run scripts/release-script.ts",
+    "npm-publish": "npm publish",
+    "release": "bun run build && bun run new-version && bun run npm-publish"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "bun", "node lib", "warpslot", "frames-v2", "warpcast", "farcaster"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/andrei0x309/warpslot-poc#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrei0x309/warpslot-poc.git"
+  },
+  "bugs": "https://github.com/andrei0x309/warpslot-poc/issues",
+  "author": "Andrei O (andrei0x309)",
+  "devDependencies": {
+    "@types/bun": "1.2.5",
+    "oxc-transform": "^0.61.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

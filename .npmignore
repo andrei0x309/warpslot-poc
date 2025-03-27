@@ -1,0 +1,12 @@
+# exc;ide files not needed for lib
+src/db/*
+src/poc.ts
+src/db-check.ts
+src/db-init.ts
+build.ts
+node_modules
+.gitignore
+.git/*
+scripts/*
+# exclude all from res
+res/*
